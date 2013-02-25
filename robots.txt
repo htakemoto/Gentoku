@@ -1,0 +1,7 @@
+User-Agent: *
+Disallow: /wp-login.php
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /wp-content/
+Allow: /
+Sitemap: http://gen-toku.com/sitemap.xml
