@@ -1,0 +1,8 @@
+.htaccess
+wp-config.php
+wp-content/uploads/*
+wp-content/backup-db/*
+!wp-content/backup-db/.htaccess
+!.gitignore
+.DS_Store
+Thumbs.db
