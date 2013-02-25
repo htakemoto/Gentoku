@@ -1,33 +1,33 @@
-        </div><!-- /#contents -->
-        
+		</div><!-- /#contents -->
+		
 <!-- Bottom -->
-
-        <div id="bottom">
-        
-            <div class="clearfix">
-                <?php dynamic_sidebar( 'bottom-widget' ); ?>
-            </div>
-        
-        </div><!-- /#bottom -->
+		
+		<!-- show only on front page -->
+		<?php if(is_front_page()){ ?>
+			<section id="frontpagebottom">
+				<div class="clearfix">
+					<?php dynamic_sidebar( 'bottom-widget' ); ?>
+ 				</div>
+			</section><!-- /#frontpagebottom -->
+		<?php } ?>
 
 <!-- Footer -->
-        
-        <div id="footer">
+		
+		<footer id="globalfooter">
 
-            <div class="clearfix">
-                <div id="tertiary-menu">
-                    <?php wp_nav_menu( array('menu_id' => 'tertiary-navi', 'theme_location' => 'tertiary', 'depth' => '1' )); ?>
-                </div>
-            </div>
+			<div class="clearfix">
+				<?php wp_nav_menu( array('container' => 'nav', 'container_id' => 'tertiary-menu', 'menu_id' => 'tertiary-navi', 'theme_location' => 'tertiary', 'depth' => '1' )); ?>
+			</div>
 
-            <?php dynamic_sidebar( 'footer-widget' ); ?>
-            
-            <p class="copy">
-                &copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>. All rights reserved.
-            </p>
+			<?php dynamic_sidebar( 'footer-widget' ); ?>
+			
+			<p class="copyright">
+				&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>. All rights reserved.
+			</p>
 
-        </div><!-- /#footer -->
-    </div><!-- /#wrapper -->
+		</footer><!-- /#globalfooter -->
+		
+	</div><!-- /#wrapper -->
 
 <?php wp_footer(); ?>
 </body>

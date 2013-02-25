@@ -9,11 +9,13 @@
 				<!-- ページの記事表示　-->
 				<?php if (the_content()) : ?>
 				<?php while (have_posts()) : the_post(); ?>
-                    <div class="post">
+                    <section class="post">
+                    <article>
 						<h2 class="title"><?php the_title(); ?></h2>
 						<?php if(has_post_thumbnail()) { echo the_post_thumbnail(); } ?>
 						<?php the_content(); ?>
-					</div><!-- /.post -->
+					</article>
+					</section><!-- /.post -->
 				<?php endwhile; ?>
 				<?php endif; ?>
 				<!-- ページの記事表示 終了　-->
@@ -21,6 +23,7 @@
 				<!-- Products image list -->
 				<?php $my_query = new WP_Query('post_type=products&posts_per_page=-1'); ?>
 				<?php if ($my_query->have_posts()) : ?>
+					<section>
 					<ul id="frontpage-products" class="clearfix">
                         <?php $num = 0; ?>
                         <?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
@@ -43,14 +46,17 @@
                             </li>
                         <?php endwhile; ?>
 					</ul>
+					</section>
 				<?php endif; ?>
 				<!--  Products image list 終了  -->
 				
 			<?php else : ?>
 				
-				<h2 class="title">記事が見つかりませんでした。</h2>
-				<p>検索で見つかるかもしれません。</p><br />
-				<?php get_search_form(); ?>
+				<section>
+					<h2 class="title">記事が見つかりませんでした。</h2>
+					<p>検索で見つかるかもしれません。</p><br />
+					<?php get_search_form(); ?>
+				</section>
 				
 			<?php endif; ?>
 			

@@ -12,42 +12,36 @@
 </head>
 
 <body <?php body_class(); ?>>
-    <div id="wrapper">
+	<div id="wrapper">
 
-        <!-- Header -->
-        <div id="header">
-            <h1><a href="<?php bloginfo('url'); ?>" id="site_title"><?php bloginfo('name'); ?></a></h1>
-            <p id="site_description"><?php bloginfo('description'); ?></p>
-            
-            <div class="clearfix">
-            	<div id="primary-menu">
-            		<?php wp_nav_menu( array('menu_id' => 'primary-navi', 'theme_location' => 'primary', 'depth' => '1' )); ?>
-            	</div>
-            	<div id="secondary-menu">
-            		<?php wp_nav_menu( array('menu_id' => 'secondary-navi', 'theme_location' => 'secondary', 'depth' => '1' )); ?>
-            	</div>
-            </div>
-        </div>
-        <!-- /#header -->
-        
-        <!--  ■ ここから  -->
-        <div class="breadcrumbs">
-        <?php if (function_exists('dimox_breadcrumbs') ) dimox_breadcrumbs(); ?>
-        </div>
-        <!--  ■ ここまで追加  -->
-        
-        <!-- Check if this is a post or page, if it has a thumbnail, and if it's a big one　-->
-        <?php
-        if ( is_singular() && !is_single() &&
-        has_post_thumbnail( $post->ID ) &&
-        ( /* $src, $width, $height */ $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'full' ) ) &&
-        $image[1] >= HEADER_IMAGE_WIDTH ) :
-        // Houston, we have a new header image!
-        ?>
-        <div id="hbg_img">
-            <?php echo get_the_post_thumbnail( $post->ID, 'full' ); ?>
-        </div>
-        <?php else : ?>
-            <!-- <img class="hbg_img" src="<?php header_image(); ?>" width="<?php echo HEADER_IMAGE_WIDTH; ?>" height="<?php echo HEADER_IMAGE_HEIGHT; ?>" alt="" />　-->
-        <?php endif; ?>
-        <!-- Check if this is a post or page, if it has a thumbnail, and if it's a big one　-->
+		<header id="globalheader">
+			<hgroup>
+				<h1><a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
+				<p><?php bloginfo('description'); ?></p>
+			</hgroup>
+
+			<div class="clearfix">
+				<?php wp_nav_menu(array('container' => 'nav', 'container_id' => 'primary-menu', 'menu_id' => 'primary-navi', 'theme_location' => 'primary', 'depth' => '1')); ?>
+				<?php wp_nav_menu(array('container' => 'nav', 'container_id' => 'secondary-menu', 'menu_id' => 'secondary-navi', 'theme_location' => 'secondary', 'depth' => '1')); ?>
+			</div>
+		</header><!-- /#globalheader -->
+		
+		<div class="breadcrumbs">
+			<?php if(function_exists('dimox_breadcrumbs')) dimox_breadcrumbs(); ?>
+		</div>
+		
+		<?php
+		/* Generate Thumbnail on Top Page */
+			/* Check if this is a post or page, if it has a thumbnail, and if it is a big one　*/
+			if( is_singular() && !is_single() && has_post_thumbnail( $post->ID ) &&
+				( /* $src, $width, $height */ $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'full' ) ) &&
+				$image[1] >= HEADER_IMAGE_WIDTH ){
+				echo "<figure id='hbg_img'>";
+				echo get_the_post_thumbnail($post->ID, 'full');
+				echo "</figure>";
+			}
+			else {
+				// echo "<img class='hbg_img' src='" . header_image() . "' width='" . HEADER_IMAGE_WIDTH . "' height='" . HEADER_IMAGE_HEIGHT . "' alt='' />";
+			}
+		?>
+		

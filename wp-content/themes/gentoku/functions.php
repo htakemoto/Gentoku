@@ -1,32 +1,42 @@
 <?php
-// ウィジェットエリア
+// Widget Area
 
-// サイドバーのウィジェット
+// side widget for blog
 register_sidebar( array(
-	'name' => __( 'Side Widget' ),
+	'name' => __( 'Side Widget For Blog' ),
+	'id' => 'side-widget-blog',
+	'before_widget' => '<section class="widget-container-side">',
+	'after_widget' => '</section>',
+	'before_title' => '<h2>',
+	'after_title' => '</h2>',
+) );
+
+// side widget for all pages
+register_sidebar( array(
+	'name' => __( 'Side Widget For All Pages' ),
 	'id' => 'side-widget',
-	'before_widget' => '<div class="widget-container-side">',
-	'after_widget' => '</div>',
-	'before_title' => '<h3>',
-	'after_title' => '</h3>',
+	'before_widget' => '<section class="widget-container-side">',
+	'after_widget' => '</section>',
+	'before_title' => '<h2>',
+	'after_title' => '</h2>',
 ) );
 
-// ボトムエリアのウィジェット
+// bottom widget
 register_sidebar( array(
-	'name' => __( 'Bottom Widget' ),
+	'name' => __( 'Bottom Widget For FrontPage' ),
 	'id' => 'bottom-widget',
-	'before_widget' => '<div class="widget-container-bottom"><ul><li>',
-	'after_widget' => '</li></ul></div>',
-	'before_title' => '<h3>',
-	'after_title' => '</h3>',
+	'before_widget' => '<section class="widget-container-bottom">',
+	'after_widget' => '</section>',
+	'before_title' => '<h2>',
+	'after_title' => '</h2>',
 ) );
 
-// フッターエリアのウィジェット
+// footer widget
 register_sidebar( array(
-	'name' => __( 'Footer Widget' ),
+	'name' => __( 'Footer Widget For All Pages' ),
 	'id' => 'footer-widget',
-	'before_widget' => '<div class="widget-container-footer">',
-	'after_widget' => '</div>',
+	'before_widget' => '<section class="widget-container-footer">',
+	'after_widget' => '</section>',
 	'before_title' => '<h3>',
 	'after_title' => '</h3>',
 ) );
@@ -67,7 +77,7 @@ return $blog_url;
 }
 add_shortcode("get_rssurl", "get_items");
 
-// 特定カテゴリの新着記事を表示するショートコード (ex: [get_newpost cat="8" num="5"])
+// 特定カテゴリの新着記事を表示するショートコード (ex: [get_newpost cat="8" num="5"]) as of 2013/02/23 it is coded on sidebar.php
 function get_cat_items($atts, $content = null) {
 extract(shortcode_atts(array(
 "num" => '5',
@@ -75,23 +85,23 @@ extract(shortcode_atts(array(
 ), $atts));
 global $post;
 $myposts = get_posts('numberposts='.$num.'&order=DESC&orderby=post_date&category='.$cat);
-$retour='<ul id="news">';
+$retour='<div id="news">';
 foreach($myposts as $post) :
 setup_postdata($post);
-$retour.='<li>';
-$retour.='<div class="news-date">'.get_post_time('Y/m/d', true).'</div>';
-$retour.='<div class="news-title">'.the_title("","",false).'</div>';
-$retour.='<div class="news-post">'.mb_substr(get_the_excerpt(), 0, 60).'... <a href="'.get_permalink().'">続きを見る>></a></div>';
-$retour.='</li>';
+$retour.='<article class="article">';
+$retour.='<time datetime="'.get_post_time('Y-m-d', true).'" class="news-date">'.get_post_time('Y/m/d', true).'</time>';
+$retour.='<h3 class="news-title">'.the_title("","",false).'</h3>';
+$retour.='<p class="news-post">'.mb_substr(get_the_excerpt(), 0, 60).'... <a href="'.get_permalink().'">続きを見る>></a></p>';
+$retour.='</article>';
 endforeach;
-$retour.='</ul>';
+$retour.='</div>';
 wp_reset_query();
 return $retour;
 }
 add_shortcode("get_newpost", "get_cat_items");
 
-// タクソノミーの一覧を表示するショートコード (ex: [taxonomy-list tax="products"])
-// Bugfix: Highlight Current taxonomy Menu Item for WordPress Single Post
+// タクソノミーの一覧を表示するショートコード (ex: [taxonomy-list tax="products-categories"]) as of 2013/02/23 it is coded on sidebar.php
+// Bugfix for Forcing Highlighting Current Taxonomy Menu Item on Single Post
 function get_tax_items($atts, $content = null) {
 extract(shortcode_atts(array(
 "tax" => ''

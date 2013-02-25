@@ -7,8 +7,9 @@
 			
 			<?php if (have_posts()) : ?>
 				<?php while (have_posts()) : the_post(); ?>
-					<div class="post">
-						<div class="cal"><?php the_time('Y/m/d') ?></div>
+					<section class="post">
+					<article>
+						<time datetime="<?php the_time('Y-m-d'); ?>" class="cal"><?php the_time('Y/m/d') ?></time>
 						<h2 class="title">
 							<a href="<?php the_permalink() ?>" title="<?php the_title_attribute(); ?>">
 								<?php the_title(); ?>
@@ -27,7 +28,8 @@
 							</ul>
 							<br class="clear" />
 						</div>
-					</div><!-- /.post -->
+					</article>
+					</section><!-- /.post -->
 				<?php endwhile; ?>
 				
 					<div class="nav-below">
@@ -37,9 +39,11 @@
 			 
 			<?php else : ?>
 			
-				<h2 class="title">記事が見つかりませんでした。</h2>
-				<p>検索で見つかるかもしれません。</p><br />
-				<?php get_search_form(); ?>
+				<section>
+					<h2 class="title">記事が見つかりませんでした。</h2>
+					<p>検索で見つかるかもしれません。</p><br />
+					<?php get_search_form(); ?>
+				</section>
 			
 			<?php endif; ?>
 			

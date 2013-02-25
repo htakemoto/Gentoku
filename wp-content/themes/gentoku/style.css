@@ -1,8 +1,8 @@
 /************************************************************
-Theme Name: Original
+Theme Name: Gentoku
 Theme URI: http://sample.com
-Description: WordPress Theme
-Version: 1.1 | 20130222
+Description: This theme is flexible to user's needs with simple code which is made from scrach.
+Version: 1.2
 Author: Hiro
 Author URI: http://sample.com
 ************************************************************/
@@ -16,7 +16,7 @@ Author URI: http://sample.com
 body{
 	font: 13px/24px "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"ＭＳ Ｐゴシック","MS PGothic","Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 	color: #222;
-}
+	}
 
 a{color: #333; text-decoration: underline;}
 a:hover{color: #000; text-decoration: none;}
@@ -29,9 +29,9 @@ a:hover{color: #000; text-decoration: none;}
 	visibility:hidden;
 	content:".";
 	}
-.clearfix{
-	min-height: 1px; /*for IE6,7*/
-	}
+	.clearfix{
+		min-height: 1px; /*for IE6,7*/
+		}
 
 /*Elementからfloatの解除*/
 p{
@@ -44,14 +44,14 @@ p{
 2. Basic Layout 
 ************************************************************/
 #wrapper{width: 980px; margin: 0 auto; }
-#header{
+#globalheader{
 	height: 80px;
 	margin-top:20px;
 	margin-bottom:30px;
 	position: relative;
 	}
 #contents{
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 	min-height: 663px;
 	overflow: hidden; /*floatの解除、ここがポイント*/
 	position: relative; /*DWで正常にプレビューできるようになります。*/
@@ -59,8 +59,7 @@ p{
 	}
 #main{width:640px; padding-right:40px; float: left;}
 #side{width: 300px; float: left;}
-#bottom{margin-bottom: 10px;}
-#footer{
+#globalfooter{
 	position: relative;
 	background: url(images/bg_footer_top.png) no-repeat center top;
 	}
@@ -68,7 +67,7 @@ p{
 /************************************************************
 3.  Header, Menu
 ************************************************************/
-#site_title{
+#globalheader h1 a{
 	margin-left: 5px;
 	width: 70px;
 	height: 80px;
@@ -76,7 +75,7 @@ p{
 	background: url(images/logo.png) no-repeat left bottom;
 	display: block;
 	}
-#site_description{
+#globalheader p{
 	position: absolute;
 	top: 60px;
 	left: 100px;
@@ -296,8 +295,8 @@ ul#frontpage-products li {
 	border-bottom: 1px solid #ccc;
 	}
 	body.page .post, body.home .post, body.single-products .post {border-bottom: none;}
-div.cal{
-	margin-bottom: 5px;
+.cal{
+	margin-bottom: 8px;
 	font-size: 0.8em;
 	color: #666666;
 	}
@@ -419,20 +418,20 @@ h3#comments{
 
 		
 /************************************************************
-7.  widget
+7.  side
 ************************************************************/
-#side h3{
+#side h2{
 	font-size:160%;
 	color:#000;
 	font-weight:normal;
 	border-bottom:1px dotted #ccc;
 	margin-top:30px;
-	margin-bottom:20px;
+	margin-bottom:15px;
 	padding-bottom:5px;
 	}
-	#side h3:first-child{margin-top:0px;}
+	#side h2:first-child{margin-top:0px;}
 	
-#footer h3{
+#frontpagebottom h2{
 	font-size: 1.1em;
 	padding-bottom: 10px;
 	}
@@ -448,10 +447,10 @@ h3#comments{
 	}
 
 /*** News ***/
-.widget-container-side ul#news{
+.widget-container-side #news{
 	padding-bottom: 10px;
 	}
-	.widget-container-side ul#news li{
+	.widget-container-side #news .article{
 		list-style: none;
 		margin-left:0;
 		margin-top: 15px;
@@ -472,15 +471,15 @@ h3#comments{
 			}
 
 /*** Taxonomy List ***/
-.widget-container-side ul#tax-list{
-	padding-bottom: 10px;
+#side ul#tax-list{
+	padding-bottom: 30px;
 	border-top: 1px solid #ccc;
 	}
-	.widget-container-side ul#tax-list li{
+	#side ul#tax-list li{
 		list-style: none;
 		margin-left:0;
 		}
-		.widget-container-side ul#tax-list li a{
+		#side ul#tax-list li a{
 			padding: 10px 10px;
 			color: #000;
 			background: #fff;
@@ -488,10 +487,10 @@ h3#comments{
 			border-bottom: 1px solid #ccc;
 			text-decoration: none;
 			}
-			.widget-container-side ul#tax-list li a:hover{
+			#side ul#tax-list li a:hover{
 				text-decoration: underline;
 				}
-		.widget-container-side ul#tax-list li.current-cat a{
+		#side ul#tax-list li.current-cat a{
 			color: #fff;
 			background: #000;
 			}
@@ -557,20 +556,21 @@ input[type="submit"]{
 /************************************************************
 9.  bottom
 ************************************************************/
-#bottom .widget-container-bottom{
+
+#frontpagebottom .widget-container-bottom{
 	width:300px;
 	margin-left:40px;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 	float: left;
 	}
-	#bottom .widget-container-bottom:first-child{margin-left:0;}
+	#frontpagebottom .widget-container-bottom:first-child{margin-left:0;}
 
 /************************************************************
 10.  Footer
 ************************************************************/
 
 /*** Tertiary Menu ***/
-#tertiary-menu {position:absolute; top:70px; right:5px;}
+#tertiary-menu {position:absolute; top:65px; right:5px;}
 ul#tertiary-navi, div.menu ul{
 	font-size: 0.9em;
 	text-align: left;
@@ -607,19 +607,23 @@ ul#tertiary-navi, div.menu ul{
 				text-decoration: underline;
 				}
 
-#footer .widget-container-footer{
+#globalfooter .widget-container-footer{
 	margin-top: 60px;
 	}
+	#globalfooter h3{
+	font-size: 1.1em;
+	padding-bottom: 10px;
+	}
 
-p.copy{
+p.copyright{
 	clear: both;
 	font-size:80%;
 	text-align:center;
 	padding:40px 0;
 	color: #666
 	}
-	p.copy a{color: #999;}
-		p.copy a:hover{color: #ccc;}
+	p.copyright a{color: #999;}
+		p.copyright a:hover{color: #ccc;}
 		
 
 /************************************************************
