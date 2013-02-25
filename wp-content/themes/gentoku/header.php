@@ -2,13 +2,12 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<title><?php bloginfo('name'); ?><?php if ( is_single() ) { ?> &raquo; Blog Archive <?php } ?><?php wp_title(); ?></title>
+<title><?php bloginfo('name'); ?><?php if(is_single()) echo " &raquo; "; ?><?php wp_title(); ?></title>
 <meta name="description" content="愛知県オーダーメード家具製作">
 <meta name="keywords" content="木工房 玄徳,GEN-TOKU,オーダー家具,愛知,瀬戸,木工房,木製,手作り,ファニチャー,インテリア,椅子,イス，テーブル,デスク,小物,ペット用品,ベルト,古民家,改装">
-<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_url' ); ?>">
+<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 <link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/images/favicon.ico">
 <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?>" href="<?php echo do_shortcode('[get_rssurl]'); ?>">
-
 <?php wp_head(); ?>
 </head>
 

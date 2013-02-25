@@ -1,68 +1,55 @@
-/*
+/************************************************************
 Theme Name: Original
 Theme URI: http://sample.com
-Description: WordPressテーマのカスタマイズ
-Version: 1.0
+Description: WordPress Theme
+Version: 1.1 | 20130222
 Author: Hiro
 Author URI: http://sample.com
-*/
+************************************************************/
 
+@import url(reset.css);
 
-
-/****************************************
-		1. General Setting 
-*****************************************/
-
-html, body, div, span, applet, object, iframe, strong,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, font, img, ins, kbd, q, s, samp,
-small, strike, sub, sup, tt, var,
-dl, dt, dd, ol, ul, li,
-fieldset, form, legend, caption, 
-tbody, tfoot, thead, table, label, tr, th, td{
-	margin: 0;
-	padding: 0;
-	border: 0;
-	outline: 0;
-	font-style: inherit;
-	font-size: 100%;
-	font-family: inherit;
-	vertical-align: middle;
-	list-style:none;
-	}
+/************************************************************
+1. General Setting 
+************************************************************/
 
 body{
 	font: 13px/24px "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"ＭＳ Ｐゴシック","MS PGothic","Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 	color: #222;
-	}
+}
 
-a{ color: #333; text-decoration: underline;}
-	a:hover{ color: #000; text-decoration: none;}
+a{color: #333; text-decoration: underline;}
+a:hover{color: #000; text-decoration: none;}
 
-/*clearfixによるfloatの解除*/
-.clearfix:after { /*floatの解除*/
+/*Float Clear*/
+.clearfix:after{
 	display:block;
 	clear:both;
 	height:0px;
 	visibility:hidden;
 	content:".";
-}
-.clearfix {
+	}
+.clearfix{
 	min-height: 1px; /*for IE6,7*/
-}
+	}
+
 /*Elementからfloatの解除*/
 p{
 	overflow: hidden; /*floatの解除、ここがポイント*/
 	position: relative; /*DWで正常にプレビューできるようになります。*/
 	zoom:1; /*IE6でレイアウト崩れを防ぐためのものです。*/	
-}
+	}
 
-/****************************************
-		2. Basic Layout 
-*****************************************/
+/************************************************************
+2. Basic Layout 
+************************************************************/
 #wrapper{width: 980px; margin: 0 auto; }
-#header{height: 80px; margin-top:20px; margin-bottom:30px; position: relative;}
+#header{
+	height: 80px;
+	margin-top:20px;
+	margin-bottom:30px;
+	position: relative;
+	}
 #contents{
 	margin-bottom: 40px;
 	min-height: 663px;
@@ -72,14 +59,15 @@ p{
 	}
 #main{width:640px; padding-right:40px; float: left;}
 #side{width: 300px; float: left;}
-#bottom{margin-bottom: 20px;}
-#footer{border-top: 1px solid #eee; padding-top:40px;}
+#bottom{margin-bottom: 10px;}
+#footer{
+	position: relative;
+	background: url(images/bg_footer_top.png) no-repeat center top;
+	}
 
-
-
-/****************************************
-		3.  Header, Menu
-*****************************************/
+/************************************************************
+3.  Header, Menu
+************************************************************/
 #site_title{
 	margin-left: 5px;
 	width: 70px;
@@ -201,15 +189,15 @@ ul#secondary-navi, div.menu ul{
 	font-size: 0.9em;
 	}
 
-/****************************************
-		Front Page Image
-*****************************************/
+/************************************************************
+Front Page Image
+************************************************************/
 
 #hbg_img { margin-bottom: 40px; }
 
-/****************************************
-		4.  Main
-*****************************************/
+/************************************************************
+4.  Main
+************************************************************/
 /*** Blog info ***/
 div.blog_info{
 	color: #666;
@@ -270,9 +258,9 @@ div.navigation{overflow:auto;}
 		}
 		
 
-/****************************************
-		Front Page Entry
-*****************************************/
+/************************************************************
+Front Page Entry
+************************************************************/
 
 ul#frontpage-products {
 	margin-bottom: 10px;
@@ -299,9 +287,9 @@ ul#frontpage-products li {
 			padding-bottom: 8px;
 			}
 
-/****************************************
-		5. Post Entry 
-*****************************************/
+/************************************************************
+5. Post Entry 
+************************************************************/
 
 .post {
 	margin-bottom: 40px;
@@ -366,9 +354,9 @@ body.page .title {
 body.blog .title, body.page .title{
 	}
 
-/****************************************
-		6. Comments
-*****************************************/
+/************************************************************
+6. Comments
+************************************************************/
 h3#comments{
 	padding: 10px 0 10px 10px;
 	clear: both;
@@ -430,9 +418,9 @@ h3#comments{
 			}
 
 		
-/****************************************
-		7.  widget
-*****************************************/
+/************************************************************
+7.  widget
+************************************************************/
 #side h3{
 	font-size:160%;
 	color:#000;
@@ -528,9 +516,9 @@ h3#comments{
 	#wp-calendar tfoot #next {text-align: right;}
 	
 	
-/****************************************
-		8.  Form
-*****************************************/
+/************************************************************
+8.  Form
+************************************************************/
 input[type="text"], textarea{
 	border:1px solid #ccc;
 	padding: 5px;
@@ -566,9 +554,9 @@ input[type="submit"]{
 
 
 
-/****************************************
-		9.  bottom
-*****************************************/
+/************************************************************
+9.  bottom
+************************************************************/
 #bottom .widget-container-bottom{
 	width:300px;
 	margin-left:40px;
@@ -577,15 +565,12 @@ input[type="submit"]{
 	}
 	#bottom .widget-container-bottom:first-child{margin-left:0;}
 
-
-
-/****************************************
-		9.  Footer
-*****************************************/
-#footer {position: relative;}
+/************************************************************
+10.  Footer
+************************************************************/
 
 /*** Tertiary Menu ***/
-#tertiary-menu {position:absolute; top:30px; right:5px;}
+#tertiary-menu {position:absolute; top:70px; right:5px;}
 ul#tertiary-navi, div.menu ul{
 	font-size: 0.9em;
 	text-align: left;
@@ -622,14 +607,9 @@ ul#tertiary-navi, div.menu ul{
 				text-decoration: underline;
 				}
 
-#footer .widget-container-bottom{
-	width:300px;
-	margin-left:40px;
-	margin-bottom: 20px;
-	float: left;
+#footer .widget-container-footer{
+	margin-top: 60px;
 	}
-	#footer .widget-container-bottom:first-child{margin-left:0;}
-
 
 p.copy{
 	clear: both;
@@ -642,9 +622,9 @@ p.copy{
 		p.copy a:hover{color: #ccc;}
 		
 
-/****************************************
-		10. plugin  zoombox
-*****************************************/
+/************************************************************
+11. plugin  zoombox
+************************************************************/
 #ZoomCapDiv {
 	display: none;
 	}
