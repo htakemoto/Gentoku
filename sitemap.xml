@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="http://localhost:8888/gen-toku/wp-content/plugins/google-sitemap-generator/sitemap.xsl"?><!-- generator="wordpress/3.5.1" -->
 <!-- sitemap-generator-url="http://www.arnebrachhold.de" sitemap-generator-version="3.2.9" -->
-<!-- generated-on="February 23, 2013 10:27 am" -->
+<!-- generated-on="February 28, 2013 1:52 pm" -->
 <!-- Debug: Total comment count: 0 -->
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	<url>
 		<loc>http://localhost:8888/gen-toku/</loc>
@@ -9,6 +9,13 @@
 		<priority>1.0</priority>
 	</url>
 <!-- Debug: Start Postings -->
+<!-- Debug: Priority report of postID 1: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/news/1/</loc>
+		<lastmod>2013-02-28T04:50:43+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
 <!-- Debug: Priority report of postID 1287: Comments: 0 of 0 = 0 points -->
 	<url>
 		<loc>http://localhost:8888/gen-toku/uncategorized/1287/</loc>
@@ -625,9 +632,16 @@
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
-<!-- Debug: Priority report of postID 42: Comments: 0 of 0 = 0 points -->
+<!-- Debug: Priority report of postID 52: Comments: 0 of 0 = 0 points -->
 	<url>
-		<loc>http://localhost:8888/gen-toku/kininarumono-koto/42/</loc>
+		<loc>http://localhost:8888/gen-toku/repair/52/</loc>
+		<lastmod>2011-10-09T13:07:40+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 34: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/diary/34/</loc>
 		<lastmod>2011-10-09T13:07:40+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
@@ -646,16 +660,9 @@
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
-<!-- Debug: Priority report of postID 34: Comments: 0 of 0 = 0 points -->
+<!-- Debug: Priority report of postID 42: Comments: 0 of 0 = 0 points -->
 	<url>
-		<loc>http://localhost:8888/gen-toku/diary/34/</loc>
-		<lastmod>2011-10-09T13:07:40+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 52: Comments: 0 of 0 = 0 points -->
-	<url>
-		<loc>http://localhost:8888/gen-toku/repair/52/</loc>
+		<loc>http://localhost:8888/gen-toku/kininarumono-koto/42/</loc>
 		<lastmod>2011-10-09T13:07:40+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
@@ -663,13 +670,6 @@
 <!-- Debug: Priority report of postID 57: Comments: 0 of 0 = 0 points -->
 	<url>
 		<loc>http://localhost:8888/gen-toku/diary/57/</loc>
-		<lastmod>2011-10-09T13:07:40+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 77: Comments: 0 of 0 = 0 points -->
-	<url>
-		<loc>http://localhost:8888/gen-toku/reform/77/</loc>
 		<lastmod>2011-10-09T13:07:40+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
@@ -684,6 +684,13 @@
 <!-- Debug: Priority report of postID 65: Comments: 0 of 0 = 0 points -->
 	<url>
 		<loc>http://localhost:8888/gen-toku/diary/65/</loc>
+		<lastmod>2011-10-09T13:07:40+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 77: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/reform/77/</loc>
 		<lastmod>2011-10-09T13:07:40+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
@@ -706,13 +713,6 @@
 	<url>
 		<loc>http://localhost:8888/gen-toku/kininarumono-koto/23/</loc>
 		<lastmod>2011-10-09T13:05:55+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 1: Comments: 0 of 0 = 0 points -->
-	<url>
-		<loc>http://localhost:8888/gen-toku/news/1/</loc>
-		<lastmod>2011-10-09T09:17:17+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>

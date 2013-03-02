@@ -9,7 +9,7 @@
 				<?php while (have_posts()) : the_post(); ?>
                     <section class="post">
                     <article>
-						<time datetime="<?php the_time('Y-m-d'); ?>" class="cal"><?php the_time('Y/m/d') ?></time>
+						<div class="cal"><time datetime="<?php the_time('Y-m-d'); ?>"><?php the_time('Y/m/d') ?></time></div>
 						<h2 class="title">
 							<a href="<?php the_permalink() ?>" title="<?php the_title_attribute(); ?>">
 								<?php the_title(); ?>
@@ -22,9 +22,11 @@
 						
 						<div class="blog_info">
 							<ul class="clearfix">
-								<li class="cat"><?php the_category('カテゴリ: , ') ?></li>
+								<li class="cat"><?php the_category() ?></li>
 								<?php the_tags('<li class="tag">タグ: ', ', ', '</li>'); ?>
+								<!-- コメント表示削除 2012/8/26
 								<li class="com"><?php comments_number('コメント (0)','コメント (1)','コメント (%)'); ?></li>
+								-->
 							</ul>
 						</div>
                     </article>

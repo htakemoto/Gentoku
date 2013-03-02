@@ -202,17 +202,20 @@ div.blog_info{
 	color: #666;
 	font-size:85%;
 	padding: 5px;
-	margin: 0 0 20px 0;
+	margin: 0 0 25px 0;
 	}
 	div.blog_info ul{margin:0; float:right;}
-		div.blog_info li{
+		div.blog_info ul li{
 			float: left;
 			padding-left:10px;
 			margin:0 5px 0 5px !important;
-			list-style: none !important
+			list-style: none !important;
 			}
 			div.blog_info li a{color: #666}
 				div.blog_info li a:hover{color: #333}
+		div.blog_info ul li:last-child{
+			margin:0 !important;
+		}
 	
 /*** Contents ***/
 img.attachment-post-thumbnail{margin:0 !important;}
@@ -296,7 +299,7 @@ ul#frontpage-products li {
 	}
 	body.page .post, body.home .post, body.single-products .post {border-bottom: none;}
 .cal{
-	margin-bottom: 8px;
+	padding-bottom: 6px;
 	font-size: 0.8em;
 	color: #666666;
 	}
@@ -458,6 +461,7 @@ h3#comments{
 		border-bottom: 1px solid #ccc;
 		}
 		.news-date {
+			padding-bottom: 4px;
 			font-size: 0.8em;
 			color: #666666;
 			}

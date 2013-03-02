@@ -9,7 +9,7 @@
 				<?php while (have_posts()) : the_post(); ?>
 					<section class="post">
 					<article>
-						<time datetime="<?php the_time('Y-m-d'); ?>" class="cal"><?php the_time('Y/m/d') ?></time>
+						<div class="cal"><time datetime="<?php the_time('Y-m-d'); ?>"><?php the_time('Y/m/d') ?></time></div>
 						<h2 class="title">
 							<a href="<?php the_permalink() ?>" title="<?php the_title_attribute(); ?>">
 								<?php the_title(); ?>

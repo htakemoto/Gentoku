@@ -33,7 +33,7 @@ if ($children) { ?>
 					foreach($myposts as $post){
 						setup_postdata($post);
 						echo '<article class="article">';
-						echo '<time datetime="'.get_post_time('Y-m-d', true).'" class="news-date">'.get_post_time('Y/m/d', true).'</time>';
+						echo '<div class="news-date"><time datetime="'.get_post_time('Y-m-d', true).'">'.get_post_time('Y/m/d', true).'</time></div>';
 						echo '<h3 class="news-title">'.the_title("","",false).'</h3>';
 						echo '<p class="news-post">'.mb_substr(get_the_excerpt(), 0, 60).'... <a href="'.get_permalink().'">続きを見る>></a></p>';
 						echo '</article>';
