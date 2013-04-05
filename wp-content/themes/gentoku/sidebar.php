@@ -24,9 +24,7 @@ if ($children) { ?>
 				<?php if(is_front_page()){ ?>
 					<section class="widget-container-side">
 					<h2>News</h2>
-					<div id="news">
 					<?php if(function_exists('get_cat_items')) echo do_shortcode('[get_newpost cat="news" num="2"]'); ?>
-					</div>
 					</section>
 				<?php } ?>
 				
