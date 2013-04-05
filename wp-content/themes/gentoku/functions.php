@@ -100,7 +100,8 @@ return $retour;
 }
 add_shortcode("get_newpost", "get_cat_items");
 
-// タクソノミーの一覧を表示するショートコード (ex: [taxonomy-list tax="products-categories"]) as of 2013/02/23 it is coded on sidebar.php
+// タクソノミーの一覧を表示するショートコード (ex: [taxonomy_list tax="products-categories"]) as of 2013/02/23 it is coded on sidebar.php
+// wp_list_categories('taxonomy=products-categories&show_count=0&hide_empty=0&title_li=');
 // Bugfix for Forcing Highlighting Current Taxonomy Menu Item on Single Post
 function get_tax_items($atts, $content = null) {
 extract(shortcode_atts(array(
@@ -122,7 +123,7 @@ else:
 endif;
 return $retour;
 }
-add_shortcode("taxonomy-list", "get_tax_items");
+add_shortcode("taxonomy_list", "get_tax_items");
 
 // Bugfix: Menus adds "current_page_parent" class to the blog page when viewing a custom post type entry
 function mypace_custom_navi_menu( $classes, $item ) {

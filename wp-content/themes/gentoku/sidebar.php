@@ -33,24 +33,7 @@ if ($children) { ?>
 				<!-- show only on products page -->
 				<?php if(get_post_type()=="products"){ ?>
 					<nav>
-					<ul id="tax-list">
-					<?php
-					// wp_list_categories('taxonomy=products-categories&show_count=0&hide_empty=0&title_li=');
-					// Above Code's Bugfix for Forcing Highlighting Current Taxonomy Menu Item on Single Post
-					$tax = "products-categories"; // taxonomy name
-					$catinfos = get_the_terms($post->ID, $tax);
-					if(is_single()) {
-						foreach ( $catinfos as $catinfo ) :
-							$mycat = $catinfo;
-							break;
-						endforeach;
-						echo wp_list_categories('taxonomy='.$tax.'&title_li=&echo=0&current_category='.$mycat->term_id);
-					}
-					else {
-						echo wp_list_categories('taxonomy='.$tax.'&title_li=&echo=0');
-					}
-					?>
-					</ul>
+					<?php if(function_exists('get_tax_items')) echo do_shortcode('[taxonomy_list tax="products-categories"]'); ?>
 					</nav>
 				<?php } ?>
 				
