@@ -77,21 +77,21 @@ return $blog_url;
 }
 add_shortcode("get_rssurl", "get_items");
 
-// 特定カテゴリの新着記事を表示するショートコード (ex: [get_newpost cat="8" num="5"]) as of 2013/02/23 it is coded on sidebar.php
+// 特定カテゴリの新着記事を表示するショートコード (ex: [get_newpost cat="news" num="5"]) as of 2013/02/23 it is coded on sidebar.php
 function get_cat_items($atts, $content = null) {
 extract(shortcode_atts(array(
-"num" => '5',
+"num" => 'news',
 "cat" => ''
 ), $atts));
 global $post;
-$myposts = get_posts('numberposts='.$num.'&order=DESC&orderby=post_date&category='.$cat);
+$myposts = get_posts('numberposts='.$num.'&order=DESC&orderby=post_date&category_name='.$cat);
 $retour='<div id="news">';
 foreach($myposts as $post) :
 setup_postdata($post);
 $retour.='<article class="article">';
-$retour.='<time datetime="'.get_post_time('Y-m-d', true).'" class="news-date">'.get_post_time('Y/m/d', true).'</time>';
+$retour.='<div class="news-date"><time datetime="'.get_post_time('Y-m-d', true).'">'.get_post_time('Y/m/d', true).'</time></div>';
 $retour.='<h3 class="news-title">'.the_title("","",false).'</h3>';
-$retour.='<p class="news-post">'.mb_substr(get_the_excerpt(), 0, 60).'... <a href="'.get_permalink().'">続きを見る>></a></p>';
+$retour.='<p class="news-post">'.mb_substr(get_the_excerpt(), 0, 60).'... <a href="'.get_permalink().'">続きを見る &raquo;</a></p>';
 $retour.='</article>';
 endforeach;
 $retour.='</div>';

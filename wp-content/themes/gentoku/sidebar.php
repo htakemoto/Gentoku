@@ -25,21 +25,7 @@ if ($children) { ?>
 					<section class="widget-container-side">
 					<h2>News</h2>
 					<div id="news">
-					<?php
-					global $post;
-					$cat = "4"; // category id of blog
-					$num = "2"; // number of posts
-					$myposts = get_posts('numberposts='.$num.'&order=DESC&orderby=post_date&category='.$cat);
-					foreach($myposts as $post){
-						setup_postdata($post);
-						echo '<article class="article">';
-						echo '<div class="news-date"><time datetime="'.get_post_time('Y-m-d', true).'">'.get_post_time('Y/m/d', true).'</time></div>';
-						echo '<h3 class="news-title">'.the_title("","",false).'</h3>';
-						echo '<p class="news-post">'.mb_substr(get_the_excerpt(), 0, 60).'... <a href="'.get_permalink().'">続きを見る>></a></p>';
-						echo '</article>';
-					}
-					wp_reset_query();
-					?>
+					<?php if(function_exists('get_cat_items')) echo do_shortcode('[get_newpost cat="news" num="2"]'); ?>
 					</div>
 					</section>
 				<?php } ?>
