@@ -110,12 +110,16 @@ ul#primary-navi, div.menu ul{
 			ul#primary-navi > li.current_page_parent > a,
 			ul#primary-navi > li.current_page_ancestor > a,
 			ul#primary-navi > li.current-menu-item > a,
+			ul#primary-navi > li.current-menu-parent > a,
+			ul#primary-navi > li.current-menu-ancestor > a,
 			ul#primary-navi > li.current-category-ancestor > a,
 			div.menu ul li:hover > a,
 			div.menu ul > li.current_page_item a,
 			div.menu ul > li.current_page_parent a,
 			div.menu ul > li.current_page_ancestor > a,
 			div.menu ul > li.current-menu-item > a,
+			div.menu ul > li.current-menu-parent > a,
+			div.menu ul > li.current-menu-ancestor > a,
 			div.menu ul > li.current-category-ancestor > a{
 				color: #fff;
 				background: #000;

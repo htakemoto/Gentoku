@@ -1,6 +1,21 @@
 <?php get_header(); ?>
 
 <!-- Contents -->
+		
+		<?php
+		/* Generate Thumbnail on Top Page */
+			/* Check if this is a post or page, if it has a thumbnail, and if it is a big one　*/
+			if( is_singular() && !is_single() && has_post_thumbnail( $post->ID ) &&
+				( /* $src, $width, $height */ $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'full' ) ) &&
+				$image[1] >= HEADER_IMAGE_WIDTH ){
+				echo "<figure id='hbg_img'>";
+				echo get_the_post_thumbnail($post->ID, 'full');
+				echo "</figure>";
+			}
+			else {
+				// echo "<img class='hbg_img' src='" . header_image() . "' width='" . HEADER_IMAGE_WIDTH . "' height='" . HEADER_IMAGE_HEIGHT . "' alt='' />";
+			}
+		?>
 
 		<div id="contents">
 			<div id="main">

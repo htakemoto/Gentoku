@@ -17,7 +17,7 @@
 						<?php the_content(); ?>
 						
 						<div class="blog_info">
-							<ul>
+							<ul class="clearfix">
 								<li class="cat"><?php the_category() ?></li>
 								<?php the_tags('<li class="tag">タグ: ', ', ', '</li>'); ?>
 								<!-- コメント表示削除 2012/8/26
