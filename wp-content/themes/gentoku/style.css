@@ -35,8 +35,6 @@ a:hover{color: #000; text-decoration: none;}
 
 /*Elementからfloatの解除*/
 p{
-	overflow: hidden; /*floatの解除、ここがポイント*/
-	position: relative; /*DWで正常にプレビューできるようになります。*/
 	zoom:1; /*IE6でレイアウト崩れを防ぐためのものです。*/	
 	}
 

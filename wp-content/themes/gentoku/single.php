@@ -14,7 +14,9 @@
 						
 						<?php if(has_post_thumbnail()) { echo the_post_thumbnail(); } ?>
 						
-						<?php the_content(); ?>
+						<div class="clearfix">
+							<?php the_content(); ?>
+						</div>
 						
 						<div class="blog_info">
 							<ul class="clearfix">

@@ -12,7 +12,9 @@
 					<article>
 						<h2 class="title"><?php the_title(); ?></h2>
 						<?php if(has_post_thumbnail()) { echo the_post_thumbnail(); } ?>
-						<?php the_content(); ?>
+						<div class="clearfix">
+							<?php the_content(); ?>
+						</div>
 					</article>
 					</section><!-- /.post -->
 				<?php endwhile; ?>

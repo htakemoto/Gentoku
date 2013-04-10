@@ -18,7 +18,9 @@
 						
 						<?php if(has_post_thumbnail()) { echo the_post_thumbnail(); } ?>
 						
-						<?php the_content('続きを読む'); ?>
+						<div class="clearfix">
+							<?php the_content('続きを読む'); ?>
+						</div>
 						
 						<div class="blog_info">
 							<ul class="clearfix">

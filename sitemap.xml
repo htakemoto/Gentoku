@@ -1,222 +1,626 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="http://localhost:8888/gen-toku/wp-content/plugins/google-sitemap-generator/sitemap.xsl"?><!-- generator="wordpress/3.5.1" -->
 <!-- sitemap-generator-url="http://www.arnebrachhold.de" sitemap-generator-version="3.2.9" -->
-<!-- generated-on="February 28, 2013 1:52 pm" -->
+<!-- generated-on="April 9, 2013 10:52 am" -->
 <!-- Debug: Total comment count: 0 -->
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	<url>
 		<loc>http://localhost:8888/gen-toku/</loc>
-		<lastmod>2012-08-31T11:43:31+00:00</lastmod>
+		<lastmod>2013-04-05T00:13:58+00:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>1.0</priority>
 	</url>
 <!-- Debug: Start Postings -->
-<!-- Debug: Priority report of postID 1: Comments: 0 of 0 = 0 points -->
 	<url>
-		<loc>http://localhost:8888/gen-toku/news/1/</loc>
-		<lastmod>2013-02-28T04:50:43+00:00</lastmod>
+		<loc>http://localhost:8888/gen-toku/links/</loc>
+		<lastmod>2013-03-02T20:52:24+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://localhost:8888/gen-toku/atelier/</loc>
+		<lastmod>2013-03-02T20:41:56+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+<!-- Debug: Priority report of postID 1344: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/diary/1344/</loc>
+		<lastmod>2013-03-02T15:50:16+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1307: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/uncategorized/1307/</loc>
+		<lastmod>2013-03-02T15:48:18+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1294: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/diary/1294/</loc>
+		<lastmod>2013-03-02T15:46:49+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 <!-- Debug: Priority report of postID 1287: Comments: 0 of 0 = 0 points -->
 	<url>
 		<loc>http://localhost:8888/gen-toku/uncategorized/1287/</loc>
-		<lastmod>2013-02-15T09:30:00+00:00</lastmod>
+		<lastmod>2013-03-02T15:43:37+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 <!-- Debug: Priority report of postID 1280: Comments: 0 of 0 = 0 points -->
 	<url>
 		<loc>http://localhost:8888/gen-toku/diary/1280/</loc>
-		<lastmod>2013-02-14T12:29:49+00:00</lastmod>
+		<lastmod>2013-03-02T15:42:00+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 <!-- Debug: Priority report of postID 1277: Comments: 0 of 0 = 0 points -->
 	<url>
 		<loc>http://localhost:8888/gen-toku/diary/1277/</loc>
-		<lastmod>2013-02-13T07:40:52+00:00</lastmod>
+		<lastmod>2013-03-02T15:41:23+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 <!-- Debug: Priority report of postID 1255: Comments: 0 of 0 = 0 points -->
 	<url>
 		<loc>http://localhost:8888/gen-toku/diary/1255/</loc>
-		<lastmod>2013-01-30T08:05:59+00:00</lastmod>
+		<lastmod>2013-03-02T15:39:27+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 <!-- Debug: Priority report of postID 1252: Comments: 0 of 0 = 0 points -->
 	<url>
 		<loc>http://localhost:8888/gen-toku/diary/1252/</loc>
-		<lastmod>2013-01-29T09:45:28+00:00</lastmod>
+		<lastmod>2013-03-02T15:38:48+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 <!-- Debug: Priority report of postID 1244: Comments: 0 of 0 = 0 points -->
 	<url>
 		<loc>http://localhost:8888/gen-toku/diary/1244/</loc>
-		<lastmod>2013-01-28T08:21:37+00:00</lastmod>
+		<lastmod>2013-03-02T15:37:42+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 <!-- Debug: Priority report of postID 1234: Comments: 0 of 0 = 0 points -->
 	<url>
 		<loc>http://localhost:8888/gen-toku/diary/1234/</loc>
-		<lastmod>2013-01-26T05:48:02+00:00</lastmod>
+		<lastmod>2013-03-02T15:36:05+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 <!-- Debug: Priority report of postID 1228: Comments: 0 of 0 = 0 points -->
 	<url>
 		<loc>http://localhost:8888/gen-toku/diary/1228/</loc>
-		<lastmod>2013-01-23T06:34:07+00:00</lastmod>
+		<lastmod>2013-03-02T15:34:35+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 <!-- Debug: Priority report of postID 1207: Comments: 0 of 0 = 0 points -->
 	<url>
 		<loc>http://localhost:8888/gen-toku/diary/1207/</loc>
-		<lastmod>2013-01-22T14:12:43+00:00</lastmod>
+		<lastmod>2013-03-02T15:31:54+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 <!-- Debug: Priority report of postID 1185: Comments: 0 of 0 = 0 points -->
 	<url>
 		<loc>http://localhost:8888/gen-toku/news/1185/</loc>
-		<lastmod>2013-01-21T08:07:04+00:00</lastmod>
+		<lastmod>2013-03-02T15:28:53+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 <!-- Debug: Priority report of postID 1180: Comments: 0 of 0 = 0 points -->
 	<url>
 		<loc>http://localhost:8888/gen-toku/diary/1180/</loc>
-		<lastmod>2013-01-20T10:15:03+00:00</lastmod>
+		<lastmod>2013-03-02T15:26:24+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 <!-- Debug: Priority report of postID 1176: Comments: 0 of 0 = 0 points -->
 	<url>
 		<loc>http://localhost:8888/gen-toku/diary/1176/</loc>
-		<lastmod>2013-01-18T10:29:41+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 1164: Comments: 0 of 0 = 0 points -->
-	<url>
-		<loc>http://localhost:8888/gen-toku/diary/1164/</loc>
-		<lastmod>2013-01-16T08:04:42+00:00</lastmod>
+		<lastmod>2013-03-02T15:25:00+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 <!-- Debug: Priority report of postID 1171: Comments: 0 of 0 = 0 points -->
 	<url>
 		<loc>http://localhost:8888/gen-toku/diary/1171/</loc>
-		<lastmod>2013-01-16T08:04:03+00:00</lastmod>
+		<lastmod>2013-03-02T15:23:49+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1164: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/diary/1164/</loc>
+		<lastmod>2013-03-02T15:22:06+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 <!-- Debug: Priority report of postID 1142: Comments: 0 of 0 = 0 points -->
 	<url>
 		<loc>http://localhost:8888/gen-toku/diary/1142/</loc>
-		<lastmod>2013-01-14T04:45:37+00:00</lastmod>
+		<lastmod>2013-03-02T15:20:43+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 <!-- Debug: Priority report of postID 1139: Comments: 0 of 0 = 0 points -->
 	<url>
 		<loc>http://localhost:8888/gen-toku/diary/1139/</loc>
-		<lastmod>2013-01-11T03:47:40+00:00</lastmod>
+		<lastmod>2013-03-02T15:14:53+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 <!-- Debug: Priority report of postID 1132: Comments: 0 of 0 = 0 points -->
 	<url>
 		<loc>http://localhost:8888/gen-toku/diary/1132/</loc>
-		<lastmod>2013-01-09T07:24:55+00:00</lastmod>
+		<lastmod>2013-03-02T15:13:46+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 <!-- Debug: Priority report of postID 1119: Comments: 0 of 0 = 0 points -->
 	<url>
 		<loc>http://localhost:8888/gen-toku/diary/1119/</loc>
-		<lastmod>2013-01-07T09:37:42+00:00</lastmod>
+		<lastmod>2013-03-02T15:11:57+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 <!-- Debug: Priority report of postID 1066: Comments: 0 of 0 = 0 points -->
 	<url>
 		<loc>http://localhost:8888/gen-toku/diary/1066/</loc>
-		<lastmod>2012-10-26T02:51:13+00:00</lastmod>
+		<lastmod>2013-03-01T05:10:24+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 <!-- Debug: Priority report of postID 1061: Comments: 0 of 0 = 0 points -->
 	<url>
 		<loc>http://localhost:8888/gen-toku/kaguseisaku/1061/</loc>
-		<lastmod>2012-10-17T07:02:54+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 1057: Comments: 0 of 0 = 0 points -->
-	<url>
-		<loc>http://localhost:8888/gen-toku/diary/1057/</loc>
-		<lastmod>2012-10-02T14:35:57+00:00</lastmod>
+		<lastmod>2013-03-01T05:08:13+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 <!-- Debug: Priority report of postID 1043: Comments: 0 of 0 = 0 points -->
 	<url>
 		<loc>http://localhost:8888/gen-toku/news/1043/</loc>
-		<lastmod>2012-09-26T13:17:29+00:00</lastmod>
+		<lastmod>2013-03-01T05:06:58+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1057: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/diary/1057/</loc>
+		<lastmod>2013-03-01T05:05:30+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 <!-- Debug: Priority report of postID 1038: Comments: 0 of 0 = 0 points -->
 	<url>
 		<loc>http://localhost:8888/gen-toku/news/1038/</loc>
-		<lastmod>2012-09-26T13:05:22+00:00</lastmod>
+		<lastmod>2013-03-01T04:58:46+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 <!-- Debug: Priority report of postID 1032: Comments: 0 of 0 = 0 points -->
 	<url>
 		<loc>http://localhost:8888/gen-toku/diary/1032/</loc>
-		<lastmod>2012-09-25T07:06:37+00:00</lastmod>
+		<lastmod>2013-03-01T04:55:48+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 <!-- Debug: Priority report of postID 1024: Comments: 0 of 0 = 0 points -->
 	<url>
 		<loc>http://localhost:8888/gen-toku/diary/1024/</loc>
-		<lastmod>2012-09-21T14:00:08+00:00</lastmod>
+		<lastmod>2013-03-01T04:54:37+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 <!-- Debug: Priority report of postID 1017: Comments: 0 of 0 = 0 points -->
 	<url>
 		<loc>http://localhost:8888/gen-toku/diary/1017/</loc>
-		<lastmod>2012-09-20T13:25:59+00:00</lastmod>
+		<lastmod>2013-03-01T04:51:40+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 <!-- Debug: Priority report of postID 1010: Comments: 0 of 0 = 0 points -->
 	<url>
 		<loc>http://localhost:8888/gen-toku/diary/1010/</loc>
-		<lastmod>2012-08-31T11:34:45+00:00</lastmod>
+		<lastmod>2013-03-01T04:47:35+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
-	</url>
-	<url>
-		<loc>http://localhost:8888/gen-toku/atelier/</loc>
-		<lastmod>2012-08-31T09:50:03+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
 	</url>
 <!-- Debug: Priority report of postID 986: Comments: 0 of 0 = 0 points -->
 	<url>
 		<loc>http://localhost:8888/gen-toku/diary/986/</loc>
-		<lastmod>2012-08-30T03:55:20+00:00</lastmod>
+		<lastmod>2013-03-01T04:45:30+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 969: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/uncategorized/969/</loc>
+		<lastmod>2013-03-01T04:42:47+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 946: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/kaguseisaku/946/</loc>
+		<lastmod>2013-03-01T04:39:49+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 940: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/kaguseisaku/940/</loc>
+		<lastmod>2013-03-01T04:36:10+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 938: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/diary/938/</loc>
+		<lastmod>2013-03-01T04:34:52+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 936: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/diary/936/</loc>
+		<lastmod>2013-03-01T04:33:32+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 927: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/diary/927/</loc>
+		<lastmod>2013-03-01T04:31:30+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 850: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/diary/850/</loc>
+		<lastmod>2013-03-01T04:26:05+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 839: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/uncategorized/839/</loc>
+		<lastmod>2013-03-01T04:23:29+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 829: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/news/829/</loc>
+		<lastmod>2013-03-01T04:22:03+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 811: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/news/811/</loc>
+		<lastmod>2013-03-01T04:20:37+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 796: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/news/796/</loc>
+		<lastmod>2013-03-01T04:18:03+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 758: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/news/758/</loc>
+		<lastmod>2013-03-01T04:14:06+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 740: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/kaguseisaku/740/</loc>
+		<lastmod>2013-03-01T04:10:07+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 739: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/kaguseisaku/739/</loc>
+		<lastmod>2013-03-01T04:08:25+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 735: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/kaguseisaku/735/</loc>
+		<lastmod>2013-03-01T04:07:09+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 728: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/kaguseisaku/728/</loc>
+		<lastmod>2013-03-01T04:04:57+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 716: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/diary/716/</loc>
+		<lastmod>2013-03-01T03:50:11+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 702: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/kaguseisaku/702/</loc>
+		<lastmod>2013-03-01T03:46:19+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 682: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/diary/682/</loc>
+		<lastmod>2013-03-01T03:42:33+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 658: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/diary/658/</loc>
+		<lastmod>2013-03-01T03:35:36+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 642: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/diary/642/</loc>
+		<lastmod>2013-03-01T03:26:32+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 624: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/diary/624/</loc>
+		<lastmod>2013-03-01T03:23:21+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 587: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/news/587/</loc>
+		<lastmod>2013-03-01T03:16:07+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 567: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/diary/567/</loc>
+		<lastmod>2013-03-01T03:10:19+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 518: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/diary/518/</loc>
+		<lastmod>2013-03-01T03:05:57+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 404: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/diary/404/</loc>
+		<lastmod>2013-03-01T03:00:09+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 428: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/diary/428/</loc>
+		<lastmod>2013-03-01T02:43:04+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 339: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/diary/339/</loc>
+		<lastmod>2013-03-01T02:22:54+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 332: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/news/332/</loc>
+		<lastmod>2013-03-01T02:15:56+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 322: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/diary/322/</loc>
+		<lastmod>2013-03-01T02:11:01+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 315: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/kaguseisaku/315/</loc>
+		<lastmod>2013-03-01T02:03:29+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 305: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/diary/305/</loc>
+		<lastmod>2013-03-01T01:57:09+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 297: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/kaguseisaku/297/</loc>
+		<lastmod>2013-03-01T01:49:15+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 259: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/kaguseisaku/259/</loc>
+		<lastmod>2013-03-01T01:43:03+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 256: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/news/256/</loc>
+		<lastmod>2013-03-01T01:40:53+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 253: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/diary/253/</loc>
+		<lastmod>2013-03-01T01:37:55+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 250: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/diary/250/</loc>
+		<lastmod>2013-03-01T01:35:49+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 242: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/diary/242/</loc>
+		<lastmod>2013-03-01T01:33:02+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 238: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/diary/238/</loc>
+		<lastmod>2013-03-01T01:25:42+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 229: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/kaguseisaku/229/</loc>
+		<lastmod>2013-03-01T01:22:29+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 225: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/kaguseisaku/225/</loc>
+		<lastmod>2013-03-01T01:18:22+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 222: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/kaguseisaku/222/</loc>
+		<lastmod>2013-03-01T01:14:22+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 209: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/diary/209/</loc>
+		<lastmod>2013-02-28T13:28:01+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 202: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/diary/202/</loc>
+		<lastmod>2013-02-28T13:12:59+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 77: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/reform/77/</loc>
+		<lastmod>2013-02-28T13:08:34+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1466: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/uncategorized/1466/</loc>
+		<lastmod>2013-02-28T10:45:36+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 65: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/diary/65/</loc>
+		<lastmod>2013-02-28T05:45:16+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 60: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/kaguseisaku/60/</loc>
+		<lastmod>2013-02-28T05:30:03+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 57: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/diary/57/</loc>
+		<lastmod>2013-02-28T05:21:54+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 52: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/repair/52/</loc>
+		<lastmod>2013-02-28T05:20:04+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 42: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/kininarumono-koto/42/</loc>
+		<lastmod>2013-02-28T05:17:37+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 39: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/diary/39/</loc>
+		<lastmod>2013-02-28T05:10:45+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 28: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/diary/28/</loc>
+		<lastmod>2013-02-28T05:06:43+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost:8888/gen-toku/news/1/</loc>
+		<lastmod>2013-02-28T05:00:59+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	<url>
+		<loc>http://localhost:8888/gen-toku/order/</loc>
+		<lastmod>2013-02-24T03:04:44+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
 	</url>
 <!-- Debug: Priority report of postID 982: Comments: 0 of 0 = 0 points -->
 	<url>
@@ -232,73 +636,10 @@
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
-<!-- Debug: Priority report of postID 969: Comments: 0 of 0 = 0 points -->
-	<url>
-		<loc>http://localhost:8888/gen-toku/uncategorized/969/</loc>
-		<lastmod>2012-08-15T14:02:31+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 946: Comments: 0 of 0 = 0 points -->
-	<url>
-		<loc>http://localhost:8888/gen-toku/kaguseisaku/946/</loc>
-		<lastmod>2012-07-01T02:03:15+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 940: Comments: 0 of 0 = 0 points -->
-	<url>
-		<loc>http://localhost:8888/gen-toku/kaguseisaku/940/</loc>
-		<lastmod>2012-06-29T09:31:18+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 938: Comments: 0 of 0 = 0 points -->
-	<url>
-		<loc>http://localhost:8888/gen-toku/diary/938/</loc>
-		<lastmod>2012-06-24T15:12:28+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 936: Comments: 0 of 0 = 0 points -->
-	<url>
-		<loc>http://localhost:8888/gen-toku/diary/936/</loc>
-		<lastmod>2012-06-23T08:00:03+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
 <!-- Debug: Priority report of postID 933: Comments: 0 of 0 = 0 points -->
 	<url>
 		<loc>http://localhost:8888/gen-toku/diary/933/</loc>
 		<lastmod>2012-06-09T16:23:09+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 927: Comments: 0 of 0 = 0 points -->
-	<url>
-		<loc>http://localhost:8888/gen-toku/diary/927/</loc>
-		<lastmod>2012-06-04T08:54:51+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 850: Comments: 0 of 0 = 0 points -->
-	<url>
-		<loc>http://localhost:8888/gen-toku/diary/850/</loc>
-		<lastmod>2012-03-12T05:03:45+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 839: Comments: 0 of 0 = 0 points -->
-	<url>
-		<loc>http://localhost:8888/gen-toku/uncategorized/839/</loc>
-		<lastmod>2012-02-13T16:37:49+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 829: Comments: 0 of 0 = 0 points -->
-	<url>
-		<loc>http://localhost:8888/gen-toku/news/829/</loc>
-		<lastmod>2012-02-12T21:45:51+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
@@ -315,27 +656,6 @@
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
-<!-- Debug: Priority report of postID 758: Comments: 0 of 0 = 0 points -->
-	<url>
-		<loc>http://localhost:8888/gen-toku/news/758/</loc>
-		<lastmod>2012-02-07T23:51:03+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 796: Comments: 0 of 0 = 0 points -->
-	<url>
-		<loc>http://localhost:8888/gen-toku/news/796/</loc>
-		<lastmod>2012-02-07T23:48:50+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 811: Comments: 0 of 0 = 0 points -->
-	<url>
-		<loc>http://localhost:8888/gen-toku/news/811/</loc>
-		<lastmod>2012-02-07T23:48:27+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
 <!-- Debug: Priority report of postID 776: Comments: 0 of 0 = 0 points -->
 	<url>
 		<loc>http://localhost:8888/gen-toku/diary/776/</loc>
@@ -343,58 +663,10 @@
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
-	<url>
-		<loc>http://localhost:8888/gen-toku/links/</loc>
-		<lastmod>2012-01-23T16:45:47+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
 <!-- Debug: Priority report of postID 709: Comments: 0 of 0 = 0 points -->
 	<url>
 		<loc>http://localhost:8888/gen-toku/news/709/</loc>
 		<lastmod>2012-01-22T15:08:42+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 740: Comments: 0 of 0 = 0 points -->
-	<url>
-		<loc>http://localhost:8888/gen-toku/kaguseisaku/740/</loc>
-		<lastmod>2012-01-20T15:03:29+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 739: Comments: 0 of 0 = 0 points -->
-	<url>
-		<loc>http://localhost:8888/gen-toku/kaguseisaku/739/</loc>
-		<lastmod>2012-01-19T14:33:29+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 735: Comments: 0 of 0 = 0 points -->
-	<url>
-		<loc>http://localhost:8888/gen-toku/kaguseisaku/735/</loc>
-		<lastmod>2012-01-17T11:31:02+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 728: Comments: 0 of 0 = 0 points -->
-	<url>
-		<loc>http://localhost:8888/gen-toku/kaguseisaku/728/</loc>
-		<lastmod>2012-01-11T14:11:14+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 716: Comments: 0 of 0 = 0 points -->
-	<url>
-		<loc>http://localhost:8888/gen-toku/diary/716/</loc>
-		<lastmod>2012-01-11T14:06:47+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 702: Comments: 0 of 0 = 0 points -->
-	<url>
-		<loc>http://localhost:8888/gen-toku/kaguseisaku/702/</loc>
-		<lastmod>2012-01-07T15:15:47+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
@@ -405,122 +677,11 @@
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
-<!-- Debug: Priority report of postID 682: Comments: 0 of 0 = 0 points -->
-	<url>
-		<loc>http://localhost:8888/gen-toku/diary/682/</loc>
-		<lastmod>2012-01-06T14:08:58+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 658: Comments: 0 of 0 = 0 points -->
-	<url>
-		<loc>http://localhost:8888/gen-toku/diary/658/</loc>
-		<lastmod>2012-01-03T13:03:32+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 624: Comments: 0 of 0 = 0 points -->
-	<url>
-		<loc>http://localhost:8888/gen-toku/diary/624/</loc>
-		<lastmod>2011-11-30T00:18:56+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 642: Comments: 0 of 0 = 0 points -->
-	<url>
-		<loc>http://localhost:8888/gen-toku/diary/642/</loc>
-		<lastmod>2011-11-30T00:14:40+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 587: Comments: 0 of 0 = 0 points -->
-	<url>
-		<loc>http://localhost:8888/gen-toku/news/587/</loc>
-		<lastmod>2011-11-15T14:08:35+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 518: Comments: 0 of 0 = 0 points -->
-	<url>
-		<loc>http://localhost:8888/gen-toku/diary/518/</loc>
-		<lastmod>2011-11-07T16:27:21+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 567: Comments: 0 of 0 = 0 points -->
-	<url>
-		<loc>http://localhost:8888/gen-toku/diary/567/</loc>
-		<lastmod>2011-11-07T16:26:44+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 428: Comments: 0 of 0 = 0 points -->
-	<url>
-		<loc>http://localhost:8888/gen-toku/diary/428/</loc>
-		<lastmod>2011-11-03T15:16:03+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 404: Comments: 0 of 0 = 0 points -->
-	<url>
-		<loc>http://localhost:8888/gen-toku/diary/404/</loc>
-		<lastmod>2011-11-03T15:15:35+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
 	<url>
 		<loc>http://localhost:8888/gen-toku/products/</loc>
 		<lastmod>2011-11-03T11:13:57+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
-	</url>
-<!-- Debug: Priority report of postID 332: Comments: 0 of 0 = 0 points -->
-	<url>
-		<loc>http://localhost:8888/gen-toku/news/332/</loc>
-		<lastmod>2011-11-01T08:37:35+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-	<url>
-		<loc>http://localhost:8888/gen-toku/order/</loc>
-		<lastmod>2011-10-25T18:31:03+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-<!-- Debug: Priority report of postID 339: Comments: 0 of 0 = 0 points -->
-	<url>
-		<loc>http://localhost:8888/gen-toku/diary/339/</loc>
-		<lastmod>2011-10-23T15:10:56+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 322: Comments: 0 of 0 = 0 points -->
-	<url>
-		<loc>http://localhost:8888/gen-toku/diary/322/</loc>
-		<lastmod>2011-10-23T15:10:43+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 315: Comments: 0 of 0 = 0 points -->
-	<url>
-		<loc>http://localhost:8888/gen-toku/kaguseisaku/315/</loc>
-		<lastmod>2011-10-23T15:10:35+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 305: Comments: 0 of 0 = 0 points -->
-	<url>
-		<loc>http://localhost:8888/gen-toku/diary/305/</loc>
-		<lastmod>2011-10-23T15:10:29+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 297: Comments: 0 of 0 = 0 points -->
-	<url>
-		<loc>http://localhost:8888/gen-toku/kaguseisaku/297/</loc>
-		<lastmod>2011-10-23T15:10:21+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
 	</url>
 	<url>
 		<loc>http://localhost:8888/gen-toku/access/</loc>
@@ -528,73 +689,10 @@
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
-<!-- Debug: Priority report of postID 259: Comments: 0 of 0 = 0 points -->
-	<url>
-		<loc>http://localhost:8888/gen-toku/kaguseisaku/259/</loc>
-		<lastmod>2011-10-10T16:07:44+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 256: Comments: 0 of 0 = 0 points -->
-	<url>
-		<loc>http://localhost:8888/gen-toku/news/256/</loc>
-		<lastmod>2011-10-10T16:07:41+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 253: Comments: 0 of 0 = 0 points -->
-	<url>
-		<loc>http://localhost:8888/gen-toku/diary/253/</loc>
-		<lastmod>2011-10-10T16:07:37+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 250: Comments: 0 of 0 = 0 points -->
-	<url>
-		<loc>http://localhost:8888/gen-toku/diary/250/</loc>
-		<lastmod>2011-10-10T16:07:32+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 242: Comments: 0 of 0 = 0 points -->
-	<url>
-		<loc>http://localhost:8888/gen-toku/diary/242/</loc>
-		<lastmod>2011-10-10T16:07:28+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 238: Comments: 0 of 0 = 0 points -->
-	<url>
-		<loc>http://localhost:8888/gen-toku/diary/238/</loc>
-		<lastmod>2011-10-10T16:07:22+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
 <!-- Debug: Priority report of postID 236: Comments: 0 of 0 = 0 points -->
 	<url>
 		<loc>http://localhost:8888/gen-toku/diary/236/</loc>
 		<lastmod>2011-10-10T16:07:18+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 229: Comments: 0 of 0 = 0 points -->
-	<url>
-		<loc>http://localhost:8888/gen-toku/kaguseisaku/229/</loc>
-		<lastmod>2011-10-10T16:07:13+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 225: Comments: 0 of 0 = 0 points -->
-	<url>
-		<loc>http://localhost:8888/gen-toku/kaguseisaku/225/</loc>
-		<lastmod>2011-10-10T16:07:08+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 222: Comments: 0 of 0 = 0 points -->
-	<url>
-		<loc>http://localhost:8888/gen-toku/kaguseisaku/222/</loc>
-		<lastmod>2011-10-10T16:06:55+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
@@ -605,36 +703,15 @@
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
-<!-- Debug: Priority report of postID 209: Comments: 0 of 0 = 0 points -->
-	<url>
-		<loc>http://localhost:8888/gen-toku/diary/209/</loc>
-		<lastmod>2011-10-10T15:23:09+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 202: Comments: 0 of 0 = 0 points -->
-	<url>
-		<loc>http://localhost:8888/gen-toku/diary/202/</loc>
-		<lastmod>2011-10-10T15:13:31+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
 	<url>
 		<loc>http://localhost:8888/gen-toku/blog/</loc>
 		<lastmod>2011-10-10T04:04:52+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
-<!-- Debug: Priority report of postID 60: Comments: 0 of 0 = 0 points -->
+<!-- Debug: Priority report of postID 63: Comments: 0 of 0 = 0 points -->
 	<url>
-		<loc>http://localhost:8888/gen-toku/kaguseisaku/60/</loc>
-		<lastmod>2011-10-09T14:42:40+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 52: Comments: 0 of 0 = 0 points -->
-	<url>
-		<loc>http://localhost:8888/gen-toku/repair/52/</loc>
+		<loc>http://localhost:8888/gen-toku/diary/63/</loc>
 		<lastmod>2011-10-09T13:07:40+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
@@ -650,55 +727,6 @@
 	<url>
 		<loc>http://localhost:8888/gen-toku/diary/36/</loc>
 		<lastmod>2011-10-09T13:07:40+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 39: Comments: 0 of 0 = 0 points -->
-	<url>
-		<loc>http://localhost:8888/gen-toku/diary/39/</loc>
-		<lastmod>2011-10-09T13:07:40+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 42: Comments: 0 of 0 = 0 points -->
-	<url>
-		<loc>http://localhost:8888/gen-toku/kininarumono-koto/42/</loc>
-		<lastmod>2011-10-09T13:07:40+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 57: Comments: 0 of 0 = 0 points -->
-	<url>
-		<loc>http://localhost:8888/gen-toku/diary/57/</loc>
-		<lastmod>2011-10-09T13:07:40+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 63: Comments: 0 of 0 = 0 points -->
-	<url>
-		<loc>http://localhost:8888/gen-toku/diary/63/</loc>
-		<lastmod>2011-10-09T13:07:40+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 65: Comments: 0 of 0 = 0 points -->
-	<url>
-		<loc>http://localhost:8888/gen-toku/diary/65/</loc>
-		<lastmod>2011-10-09T13:07:40+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 77: Comments: 0 of 0 = 0 points -->
-	<url>
-		<loc>http://localhost:8888/gen-toku/reform/77/</loc>
-		<lastmod>2011-10-09T13:07:40+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 28: Comments: 0 of 0 = 0 points -->
-	<url>
-		<loc>http://localhost:8888/gen-toku/diary/28/</loc>
-		<lastmod>2011-10-09T13:06:54+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>

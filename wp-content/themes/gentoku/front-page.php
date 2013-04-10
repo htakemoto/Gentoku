@@ -74,7 +74,9 @@
 					<section class="post">
 					<article>
 						<h2 class="title">About</h2>
-						<?php the_content(); ?>
+						<div class="clearfix">
+							<?php the_content(); ?>
+						</div>
 					</article>
 					</section><!-- /.post -->
 				<?php endwhile; ?>
