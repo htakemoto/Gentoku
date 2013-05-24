@@ -8,6 +8,9 @@
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 <link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/images/favicon.ico">
 <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?>" href="<?php echo do_shortcode('[get_rssurl]'); ?>">
+<!--[if lt IE 9]>
+<script src="<?php bloginfo('template_url'); ?>/scripts/html5shiv.js"></script>
+<![endif]-->
 <?php wp_head(); ?>
 </head>
 
