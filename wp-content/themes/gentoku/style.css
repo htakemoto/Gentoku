@@ -102,6 +102,7 @@ ul#primary-navi, div.menu ul{
 			padding:5px 20px;
 			text-decoration:none;
 			display: block;
+			transition: background ease-out 200ms;
 			}
 			ul#primary-navi li:hover > a,
 			ul#primary-navi > li.current_page_item > a,
@@ -524,7 +525,7 @@ h3#comments{
 /************************************************************
 8.  Form
 ************************************************************/
-input[type="text"], textarea{
+input[type="text"], input[type="email"], textarea{
 	border:1px solid #ccc;
 	padding: 5px;
 	color: #111;
