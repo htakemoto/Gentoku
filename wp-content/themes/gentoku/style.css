@@ -38,9 +38,11 @@ p{
 	zoom:1; /*IE6でレイアウト崩れを防ぐためのものです。*/	
 	}
 
+
 /************************************************************
 2. Basic Layout 
 ************************************************************/
+
 #wrapper{width: 980px; margin: 0 auto; }
 #globalheader{
 	height: 80px;
@@ -62,9 +64,11 @@ p{
 	background: url(images/bg_footer_top.png) no-repeat center top;
 	}
 
+
 /************************************************************
 3.  Header, Menu
 ************************************************************/
+
 #globalheader h1 a{
 	margin-left: 5px;
 	width: 70px;
@@ -191,15 +195,18 @@ ul#secondary-navi, div.menu ul{
 	font-size: 0.9em;
 	}
 
+
 /************************************************************
 Front Page Image
 ************************************************************/
 
 #hbg_img { margin-bottom: 40px; }
 
+
 /************************************************************
 4.  Main
 ************************************************************/
+
 /*** image hover effect in main div ***/
 #main a img {
     transition: opacity ease-out 500ms;
@@ -207,7 +214,6 @@ Front Page Image
     #main a:hover img {
         opacity: 0.6;
         }
-
 
 /*** Blog info ***/
 div.blog_info{
@@ -301,6 +307,7 @@ ul#frontpage-products li {
 			padding-bottom: 8px;
 			}
 
+
 /************************************************************
 5. Post Entry 
 ************************************************************/
@@ -347,7 +354,6 @@ ul#frontpage-products li {
 		}
 	.post ol li{list-style: decimal outside;margin-left:20px;}
 
-
 /* title */
 .title{
 	margin-bottom: 20px;
@@ -368,9 +374,11 @@ body.page .title {
 body.blog .title, body.page .title{
 	}
 
+
 /************************************************************
 6. Comments
 ************************************************************/
+
 h3#comments{
 	padding: 10px 0 10px 10px;
 	clear: both;
@@ -431,10 +439,11 @@ h3#comments{
 			border:1px solid #06c;
 			}
 
-		
+
 /************************************************************
 7.  side
 ************************************************************/
+
 #side h2{
 	font-size:160%;
 	color:#000;
@@ -534,6 +543,7 @@ h3#comments{
 /************************************************************
 8.  Form
 ************************************************************/
+
 input[type="text"], input[type="email"], textarea{
 	border:1px solid #ccc;
 	padding: 5px;
@@ -568,7 +578,6 @@ input[type="submit"]{
 	}
 
 
-
 /************************************************************
 9.  bottom
 ************************************************************/
@@ -580,6 +589,7 @@ input[type="submit"]{
 	float: left;
 	}
 	#frontpagebottom .widget-container-bottom:first-child{margin-left:0;}
+
 
 /************************************************************
 10.  Footer
@@ -645,6 +655,7 @@ p.copyright{
 /************************************************************
 11. plugin  zoombox
 ************************************************************/
+
 #ZoomCapDiv {
 	display: none;
 	}
