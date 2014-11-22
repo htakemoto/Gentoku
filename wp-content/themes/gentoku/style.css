@@ -200,6 +200,15 @@ Front Page Image
 /************************************************************
 4.  Main
 ************************************************************/
+/*** image hover effect in main div ***/
+#main a img {
+    transition: opacity ease-out 500ms;
+    }
+    #main a:hover img {
+        opacity: 0.6;
+        }
+
+
 /*** Blog info ***/
 div.blog_info{
 	color: #666;
